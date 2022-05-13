@@ -18,3 +18,10 @@
 	font-size: 14px;
 	cursor: pointer;
 }
+@media (min-width:0px) and (max-width:770px){
+	.green_btn {
+		padding: 7px 0;
+		width: 100px;
+		font-size: 10px;
+	}
+}

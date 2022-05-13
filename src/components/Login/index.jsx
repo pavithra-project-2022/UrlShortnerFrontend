@@ -54,7 +54,7 @@ const Login = () => {
 							className={styles.input}
 						/>
 						<Link to="/forgot-password" style={{ alignSelf: "flex-start" }}>
-							<p style={{ padding: "0 15px" }}>Forgot Password ?</p>
+							<p className={styles.FP} style={{ padding: "0 15px" }}>Forgot Password ?</p>
 						</Link>
 						{error && <div className={styles.error_msg}>{error}</div>}
 						<button type="submit" className={styles.green_btn}>
